@@ -1,0 +1,106 @@
+@import url(reset.css);
+@font-face {
+	font-family: 'Caveat';
+	src: url("../fonts/Caveat-SemiBold.woff2") format('woff2'),
+		 url('../fonts/Caveat-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Caveat';
+	src: url('../fonts/Caveat-Regular.woff2') format('woff2'),
+		 url('../fonts/Caveat-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Caveat';
+	src: url('../fonts/Caveat-Medium.woff2') format('woff2'),
+		 url('../fonts/Caveat-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Caveat';
+	src: url('../fonts/Caveat-Bold.woff2') format('woff2'),
+		 url('../fonts/Caveat-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
+a{
+	color: blue;
+	font-weight: 500;
+	white-space: nowrap;
+}
+div.footer a{
+	text-decoration: underline;
+}
+h1{
+	font-family: "Caveat", cursive;
+	color: red;
+	font-size: 36px;
+	font-weight: 500;
+	text-align: center;
+	font-style: italic;
+	text-decoration: underline overline;
+	word-spacing: 20px;
+}
+ul{
+	text-align: center;
+}
+#mark{
+	text-align: center;
+}
+li{
+	text-shadow: 2px 2px 1px #1f03f44c;
+}
+mark{
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.chapter-1{
+	text-align: justify;
+	text-indent: 20px;
+}
+.chapter-2 p{
+	text-align: right;
+	font-style: oblique;
+}
+.chapter-3{
+	text-align: left;
+	font-family: "Caveat", cursive;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+p.through{
+	text-decoration: line-through;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.chapter-5, .footer, .chapter-4 p{
+	text-indent: 20px;
+}
+.chapter-4 div, .chapter-2 div, .chapter-5 div, .footer div{
+	text-align: right;
+}
+[title="привет"]{
+	font-family: "Caveat", cursive;
+	font-weight: 600;
+	font-size: 20px;
+}
+[title="пока"]{
+	font-family: "Caveat", cursive;
+	font-weight: bold;
+	font-size: 20px;
+}
