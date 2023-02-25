@@ -1,0 +1,59 @@
+@import url(reset.css);
+body{
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+}
+main{
+	/*Центруем всю конструкцию*/
+	max-width: 1270px;
+	margin: 0 auto;
+}
+.text1,
+.text2{
+	/*Центруем текстовый блок 1 и 2*/
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.text1-title1{
+	max-width: 400px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+.text1-title2,
+.text2-title2{
+	font-size: 14px;
+	line-height: 1.79;
+	color: #6C757D;
+}
+.text1-title2__content2{
+	margin: 30px 0;
+}
+[alt="image1"]{
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.text2-title1{
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+.text2-title2__content1{
+	margin-bottom: 30px;
+}
+.image{
+	margin-bottom: 80px;
+}
+[alt="image2"]{
+	margin-right: 30px;
+}
+.text3{
+	max-width: 816px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 1.79;
+	color: #6C757D;
+}
