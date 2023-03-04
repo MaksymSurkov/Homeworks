@@ -1,0 +1,118 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #6C757D;
+}
+.article {
+	padding: 15px;
+}
+.article-hw5{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+}
+[class*="__container-hw5"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.image {
+	max-width: 100%;
+}
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+.article__text-block-hw5 {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__text-block-hw5 p {
+	margin-bottom: 30px;
+}
+.article__text p {
+	margin-bottom: 30px;
+}
+.article__text,
+.image-1 {
+	margin-bottom: 100px;
+}
+.article__title {
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+}
+.article__title-hw5 {
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 40px;
+}
+.images {
+	margin-bottom: 100px;
+	font-size: 0px;
+}
+.images-hw5 {
+	margin-bottom: 80px;
+	font-size: 0px;
+}
+.image-2,
+.image-5 {
+	margin-right: 30px;
+}
+.link {
+	font-weight: 700;
+	font-size: 25px;
+	color: black;
+	max-width: 250px;
+	margin: 0 auto;
+	border: 5px dashed;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px 10px black, inset 5px 5px 30px 5px black;
+	opacity: 0.8;
+}
+.image-4 {
+	margin-bottom: 80px;
+}
+/*Отработка выученных свойств*/
+.outline {
+	border: 5px solid red;
+	width: 400px;
+	outline: 5px dotted black;
+	border-radius: 10px;
+	margin-bottom: 30px;
+} 
+.hidden{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid black;
+}
+.block1{
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: green;
+	padding: 30px;
+	color: black;
+}
+.block2{
+	margin: 0 -30px;
+	background-color: yellow;
+	color: black;
+}
+[alt="image7"]{
+	max-width: 100%;
+}
