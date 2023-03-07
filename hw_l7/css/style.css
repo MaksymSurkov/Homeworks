@@ -1,0 +1,165 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;700&display=swap');
+.article{
+	padding: 15px;
+}
+/*------Верх-------*/
+.top{
+	background: url("../img/top.png") 50%/cover no-repeat;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 100px;
+}
+.top__container{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-top: 330px;
+	padding-bottom: 100px;
+}
+.top__text{
+	max-width: 605px;
+}
+.top__text p{
+	margin-bottom: 15px;
+}
+.text1,
+.text3 {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.68;
+	color: #E5E5E5;
+}
+.text2 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #F8F9FA;
+}
+/*----------Список-------------*/
+.container__list{
+	max-width: 1240px;
+	font-family: "Inter", sans-serif;
+	margin: 0 auto;
+}
+.container__list div{
+	max-width: 309px;
+	display: inline-block;
+	margin-bottom: 68px;
+	margin-right: 90px;
+	color: #637381;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.25;
+	vertical-align: top;
+}
+h1{
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.08;
+	color: #212B36;
+	margin-bottom: 45px;
+}
+.list1{
+	width: 309px;
+	margin-bottom: 60px;
+}
+.list1 li{
+	line-height: 0.94;
+	padding-left: 18px;
+	margin-bottom: 18px;
+	background: url("../img/icons/Ellipse\ 2744.png") left/8px no-repeat;
+}
+.list2 li{
+	padding-left: 28px;
+	margin-bottom: 18px;
+	background: url("../img/icons/checkmark-circle\ \(2\)\ 1.png") left/20px no-repeat;
+}
+.list3 li{
+	padding-left: 28px;
+	margin-bottom: 18px;
+	background: url("../img/icons/checkmark-circle\ \(2\)\ 1\ \(1\).png") left/20px no-repeat;
+}
+.list4 li{
+	padding-left: 28px;
+	margin-bottom: 18px;
+	background: url("../img/icons/cross-circle\ \(1\)\ 1.png") left/20px no-repeat;
+}
+.list5 li{
+	padding-left: 28px;
+	margin-bottom: 18px;
+	background: url("../img/icons/arrow-right\ \(7\)\ 1.png") left/20px no-repeat;
+}
+.list6 li{
+	padding-left: 28px;
+	margin-bottom: 18px;
+	background: url("../img/icons/star\ \(1\)\ 1.png") left/20px no-repeat;
+}
+/*-----------Низ------------*/
+.bottom{
+	font-family: "Inter", sans-serif;
+	background: url("../img/Vector\ 18.png") right/auto 100% no-repeat, #F4F7FF url("../img/Vector\ 17.png") right/auto 100% no-repeat;
+	margin-bottom: 50px;
+}
+.bottom__container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.bottom__content{
+	max-width: 1050px;
+	background: url("../img/speaker\ 1.png") right center no-repeat;
+}
+.content__block{
+	max-width: 570px;
+	padding: 145px 0;
+}
+.text-1{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	color: #3056D3;
+	margin-bottom: 13px;
+}
+.text-2{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+.text-3{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #637381;
+	margin-bottom: 35px;
+}
+.text-4{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	background-color: #3056D3;
+	border-radius: 30px;
+	min-width: 139px;
+	display: inline-block;
+}
+/*-----Отработка-----*/
+
+.background__content{
+	/*max-width: 900px;*/
+	max-height: 500px;
+	/*background: url("../img/1.jpg") center/cover no-repeat fixed;*/
+	overflow: scroll;
+	border: 5px solid black;
+	border-radius: 10px;
+	background: yellowgreen;
+	margin-bottom: 100px;
+}
+.background{
+	background: url("../img/1.jpg") center/cover no-repeat fixed;
+	padding: 300px 0;
+}
+.background__block{
+	background: gainsboro;
+	padding: 220px;
+}
