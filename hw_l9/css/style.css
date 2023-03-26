@@ -1,0 +1,107 @@
+@import url("reset.css");
+.article{
+	background-color: rgb(187, 173, 154);
+}
+.article__container{
+	padding: 30px 10px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.text{
+	background-color: yellowgreen;
+	max-width: 1200px;
+	border-radius: 20px;
+	padding: 30px 30px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.text *:not(:last-child){
+	margin-bottom: 10px;
+}
+.icons{
+	background-color: #925d03;
+	color: antiquewhite;
+	border-radius: 20px;
+	padding: 30px 30px 0;
+	margin-bottom: 30px;
+}
+.icons__text{
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: 600;
+}
+.icons__text *{
+	margin-bottom: 10px;
+}
+h1, h2, h3, h4{
+	color: yellow;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+}
+[alt="mail"],
+[alt="phone"],
+[alt="map"]{
+	width: 50px;
+}
+.icons__img *:not(:last-child){
+	margin-right: 20px;
+}
+.icons__bkg{
+	width: 450px;
+	height: 100px;
+	background: url("../img/icons/facebook.svg") no-repeat, url("../img/icons/instagram.svg") 5% 0 no-repeat, url("../img/icons/twitter.svg") 11% 0/22px no-repeat,
+	url("../img/icons/linkedin.svg") 17% 0 no-repeat, url("../img/icons/dashboard1.svg") 30% 0 no-repeat, url("../img/icons/Grid.svg") 42% 0 no-repeat, 
+	url("../img/icons/layers\(2\)1.svg") 52% 0 no-repeat, url("../img/icons/reload1.svg") 62% 0 no-repeat, url("../img/icons/Vectorclock.svg") 73% 0 no-repeat, 
+	url("../img/icons/Vectorwave.svg") 84% 0 no-repeat;
+	margin: 0 auto;
+}
+.content-img{
+	background-color: #027614;
+	color: antiquewhite;
+	border-radius: 20px;
+	padding: 30px 30px 0;
+	margin-bottom: 30px;
+}
+.content-img__text{
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: 600;
+}
+.content-img__text *{
+	margin-bottom: 10px;
+}
+img{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.design-img{
+	background-color: #333903;
+	color: antiquewhite;
+	border-radius: 20px;
+	padding: 30px 30px 0;
+}
+.design-img__text{
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: 600;
+}
+.design-img__text *{
+	margin-bottom: 10px;
+}
+.design-img__img{
+	width: 850px;
+	height: 200px;
+	background: url("../img/design/DottedShape.svg") no-repeat, url("../img/design/Ellipse2706.svg") 20% 0 no-repeat, 
+	url("../img/design/Group1000001858.svg") 38% 0 no-repeat, url("../img/design/Group1000002002.svg") 38% 0 no-repeat,
+	url("../img/design/Oval.svg") 70% 0 no-repeat, url("../img/design/Oval2.svg") 77% 0 no-repeat, url("../img/design/shape.svg") 87% 0 no-repeat;
+	margin-bottom: 30px;
+}
+.retina{
+	max-width: 300px;
+	margin: 0 auto;
+}
