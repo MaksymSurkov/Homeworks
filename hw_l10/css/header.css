@@ -1,0 +1,17 @@
+.header {
+	padding: 37px 0;
+}
+.header__logo {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.39;
+	color: #495057;
+}
+span{
+	color: #DDBEA9;
+}
+.header__search {
+	width: 32px;
+	height: 25px;
+	border-left: 2px solid #E5E5E5;
+}
