@@ -1,0 +1,29 @@
+.header {
+	padding: 37px 0;
+}
+.header__container *{
+	display: inline-block;
+}
+.header__logo {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.39;
+	color: #495057;
+	margin-right: 400px;
+}
+span{
+	color: #DDBEA9;
+}
+.header__nav{
+	margin-right: 300px;
+}
+.header__social a:last-child{
+	margin-right: 20px;
+}
+.header__social{
+	border-right: 1px solid #E5E5E5;
+	margin-right: 20px;
+}
+.header__search img{
+	vertical-align: middle;
+}
