@@ -1,0 +1,11 @@
+.header{
+	position: fixed;
+	min-width: 100%;
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.header__container *{
+	display: inline-block;
+	vertical-align: middle;
+}
