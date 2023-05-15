@@ -1,0 +1,185 @@
+@import url("reset.css");
+body{
+	background-color: #E5E5E5;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 30px 0;
+}
+[class*="__title"]{
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+[class*="__item"]{
+	text-transform: uppercase;
+	color: #ffffff;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	padding-top: 65px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.main-title{
+	font-size: 34px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgb(182, 12, 12);
+}
+.translate__item-1{
+	background-color: green;
+	margin-right: 50px;
+	border-radius: 50%;
+}
+.translate__item-1:hover {
+	transform: translate(20px,20px);
+}
+.translate__item-2{
+	background-color: green;
+}
+.translate__item-2:hover {
+	transform: translate(-20px);
+}
+.translate,
+.scale,
+.rotate,
+.skew,
+.matrix,
+.perspective,
+.multi,
+.transform-style {
+	margin-bottom: 30px;
+}
+.scale__item-1{
+	background-color: rgb(0, 94, 128);
+	margin-right: 50px;
+	border-radius: 50%;
+}
+.scale__item-1:hover {
+	transform: scale(1.5,1.5);
+}
+.scale__item-2{
+	background-color: rgb(0, 94, 128);
+}
+.scale__item-2:hover {
+	transform: scale(-1,1);
+}
+.rotate__item-1{
+	background-color: rgb(23, 0, 128);
+	margin-right: 50px;
+}
+.rotate__item-1:hover {
+	transform: rotate(45deg);
+}
+.rotate__item-2{
+	background-color: rgb(23, 0, 128);
+	transform-origin: 0 0;
+}
+.rotate__item-2:hover {
+	transform: rotate(-40deg);
+}
+.skew__item-1{
+	background-color: rgb(169, 82, 32);
+	margin-right: 50px;
+	border-radius: 50%;
+}
+.skew__item-1:hover {
+	transform: skew(20deg);
+}
+.skew__item-2{
+	background-color: rgb(169, 82, 32);
+	border-radius: 50%;
+}
+.skew__item-2:hover {
+	transform: skew(0deg,30deg);
+}
+.matrix__item-1{
+	background-color: rgb(169, 82, 32);
+	margin-right: 50px;
+	/*border-radius: 50%;*/
+}
+.matrix__item-1:hover {
+	transform: translate(20px) rotate(45deg) scale(-1.5) skew(20deg);
+}
+.matrix__item-2{
+	background-color: rgb(169, 82, 32);
+	border-radius: 50%;
+}
+.matrix__item-2:hover {
+	transform: skew(0deg,30deg) rotateX(45deg);
+}
+.perspective__wrapper{
+	background-color: rgba(128, 128, 128, 0.6);
+	display: inline-block;
+	margin-right: 50px;
+	perspective: 300px;
+}
+.perspective__item-1,
+.perspective__item-2,
+.multi__item-1,
+.multi__item-2,
+.multi__item-3{
+	background-color: rgb(207, 10, 10);
+}
+.perspective__wrapper:hover .perspective__item-1{
+	transform:rotateX(50deg);
+}
+.perspective__wrapper:hover .perspective__item-2{
+	transform: skew(30deg) rotateY(45deg);
+}
+.multi__wrapper{
+	background-color: rgba(128, 128, 128, 0.6);
+	display: inline-block;
+	margin-right: 50px;
+	perspective: 300px;
+}
+.multi__wrapper:hover .multi__item-1{
+	transform: translate3D(20px, 20px, 20px);
+}
+.multi__wrapper:hover .multi__item-2{
+	transform: scale3d(1.1, 1.1, 1.1);
+}
+.multi__wrapper:hover .multi__item-3{
+	transform: rotate3d(2, 1, 2, 90deg);
+}
+.transform-style__wrapper{
+	background-color: rgba(128, 128, 128, 0.6);
+	display: inline-block;
+	margin-right: 50px;
+	perspective: 300px;
+	transform-style: preserve-3d;
+}
+.transform-style__item-1{
+	background-color: rgb(16, 133, 243);
+}
+.transform-style__wrapper:hover .transform-style__item-1{
+	transform: rotateX(45deg);
+}
+.backface-visibility__wrapper{
+	background-color: rgba(128, 128, 128, 0.6);
+	display: inline-block;
+	margin-right: 50px;
+	perspective: 300px;
+	transform-style: preserve-3d;
+}
+.backface-visibility__item-1{
+	background-color: rgb(1, 194, 7);
+	backface-visibility:hidden;
+}
+.backface-visibility__wrapper:hover .backface-visibility__item-1{
+	transform: rotateY(120deg);
+}
+.backface-visibility__item-2{
+	background-color: rgb(1, 194, 7);
+	backface-visibility:visible;
+}
+.backface-visibility__wrapper:hover .backface-visibility__item-2{
+	transform: rotateY(120deg);
+}
