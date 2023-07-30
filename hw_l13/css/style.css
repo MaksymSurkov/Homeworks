@@ -1,0 +1,66 @@
+@import url("reset.css");
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+body{
+	background-color: beige;
+}
+.block{
+	width: 150px;
+	height: 150px;
+	background-color: chocolate;
+	transition-property: width, height, background-color;
+	transition-duration: 1s, 2s, 3s;
+	transition-delay: 3s, 3s, 1s;
+}
+.block:hover{
+	background-color: aqua;
+	width: 300px;
+	height: 300px;
+}
+.img{
+	margin-top: 30px;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+.link::after{
+	content: "";
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	transition: all 0.8s;
+}
+.img:hover .link::after{
+	transform: translateY(100%);
+}
+.block-animation__item{
+	width: 150px;
+	height: 150px;
+	background-color:purple;
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes rotate{
+	0%{
+		transform: translate(0px,0px);
+	}
+	50%{
+		border-radius: 50%;
+	}
+	100%{
+		transform: translate(200px,0px);
+	}
+}
