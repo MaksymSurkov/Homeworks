@@ -1,0 +1,154 @@
+@import url("reset.css");
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	color: #495057;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper>main{
+	flex-grow: 1;
+}
+.article__container{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.article__content{
+	padding: 100px 0;
+}
+.article__menu{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	line-height: 2.08;
+	font-weight: 500;
+	margin-bottom: 44px;
+}
+.menu__categories{
+	transition: all 0.5s;
+}
+.menu__categories:hover{
+	color: #9ea0a2;
+}
+.menu__categories::after{
+	content: "+";
+	width: 9px;
+	margin-left: 7px;
+	vertical-align: middle;
+	line-height: 2.08;
+}
+.view{
+	display: flex;
+	column-gap: 20px;
+}
+.view__link{
+	color: rgba(73, 80, 87, 0.50);
+	transition: all 0.3s;
+}
+.view__link:hover{
+	text-decoration: underline;
+	color: #495057
+}
+.view__link--active{
+	color: #495057;
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px 60px -15px;
+	row-gap: 45px;
+}
+.cards__column {
+	flex: 0 0 33.333%;
+	padding: 0px 15px;
+}
+.item-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 30px;
+	min-height: 100%;
+	position: relative;
+}
+.item-card__image {
+	min-width: 170px;
+}
+.item-card:hover .text__title{
+	color: #CCD5AE;
+}
+.item-card__image img{
+	max-width: 100%;
+}
+.item-card:hover .image__link{
+	visibility: visible;
+	opacity: 1;
+}
+.image__link{
+	position: absolute;
+	top: 6%;
+	right: 8%;
+	color: #F8F9FA;
+	text-align: center;
+	font-size: 8px;
+	font-weight: 700;
+	line-height: 2.5;
+	border-radius: 3px;
+	background: rgba(33, 37, 41, 0.30);
+	padding: 3px 12px 3px 12px;
+	text-transform: uppercase;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.item-card__text {
+	font-weight: 300;
+	line-height: 20px;
+	flex-grow: 1;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 15px;
+	min-height: 100%;
+}
+.text__date {
+	flex-grow: 1;
+}
+.text__title {
+	color: #212529;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	flex-grow: 1;
+	transition: all 0.5s;
+}
+.text__subtitle {
+	flex-grow: 1;
+}
+.text__border{
+	background: #E5E5E5;
+	height: 1px;
+	width: 100%;
+}
+.button {
+	display: flex;
+	justify-content: center;
+}
+.button:hover .button__link{
+	background: #495057;
+}
+.button__link {
+	border-radius: 3px;
+	background: #212529;
+	color: #F8F9FA;
+	text-align: center;
+	font-weight: 500;
+	line-height: 2.08;
+	padding: 8px 50px;
+	transition: all 0.5s;
+}
