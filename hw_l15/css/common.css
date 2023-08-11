@@ -1,0 +1,93 @@
+/*карточки achievement*/
+.cards {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.cards__item {
+	display: flex;
+}
+.cards__image {
+	flex: 0 0 62.1666667%;
+	overflow: hidden;
+}
+.cards__image img{
+	max-width: 100%;
+	transition: all 0.8s;
+}
+.cards__image img:hover{
+	opacity: 0.8;
+	transform: scale(1.01);
+}
+.cards__body {
+	flex: 0 0 37.8333333%;
+	padding-left: 120px;
+	align-self: center;
+	max-height: 365px; /*указал конкретно для домашки что бы текс не вытягивался в длинную узкую колонку*/
+}
+.cards__text{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.cards__title {
+	color: var(--grayscale-50, #333);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.4;
+	transition: color 0.5s;
+}
+.cards__title:hover{
+	color: #9C9C9C;
+}
+.cards__subtitle {
+	color: var(--grayscale-10, #9C9C9C);
+}
+/*-------------------*/
+/*-----текстовые карточки room-------*/
+.text-card__body{
+	flex: 0 0 50%;
+	padding: 0 16px;
+}
+.text-card__item{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	min-height: 100%;
+	row-gap: 24px;
+	color: #9C9C9C;
+}
+.text-card__title {
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.4;
+	transition: color 0.5s;
+}
+.text-card__title:hover{
+	color: #9C9C9C;
+}
+.text-card__overview {
+	flex-grow: 1;
+	padding-bottom: 6px;
+}
+.date {
+	display: inline-block;
+	margin-right: 80px;
+}
+.text-card__signature:hover{
+	color: #333;
+	text-decoration: underline;
+}
+/*------------------*/
+/*--------карточки room с изображением---------*/
+.image-card__body {
+	flex: 0 0 50%;
+	padding: 0 16px;
+}
+.image-card__body--basis{
+	flex-basis: 100%;
+}
+.image-card__item img{
+	max-width: 100%;
+}

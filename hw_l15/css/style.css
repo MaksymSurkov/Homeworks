@@ -1,0 +1,102 @@
+@import url("reset.css");
+@import url("common.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper>main{
+	flex-grow: 1;
+}
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.article__content{
+	padding: 100px 0;
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.portfolio__header{
+	display: flex;
+	gap: 26px;
+	padding-right: 30px;
+}
+.portfolio__title {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 150%;
+	transition: color 0.5s;
+}
+.portfolio__title:hover{
+	color: #9C9C9C;
+}
+.portfolio__line{
+	flex: 0 1 464px;
+	height: 2px;
+	background: #000;
+	align-self: center;
+}
+
+.article__room {
+	padding-top: 100px;
+}
+.room__header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 53px;
+}
+.room__title {
+	color: #000;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.40;
+	text-align: center;
+}
+.room__subtitle {
+	color: #000;
+	text-align: center;
+	max-width: 518px;
+}
+.room__image img{
+	max-width: 100%;
+}
+
+.room__content {
+	padding-top: 100px;
+}
+.room__cards{
+	display: flex;
+	flex-direction: column;
+	row-gap: 82px;
+}
+.cards-room__text{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px ;
+	row-gap: 32px;
+}
+
+.cards-room__image {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px ;
+	row-gap: 32px;
+}
