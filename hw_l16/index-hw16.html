@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style-hw16.css">
+	<title>Домашка №16</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header></header>
+		<main>
+			<div class="page">
+				<div class="page__container">
+					<div class="page__form">
+						<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form-billing">
+							<h1 class="form-billing__title">Billing Details</h1>
+							<div class="form-billing__details">
+								<input type="text" class="input" name="first-name" value="" required autocomplete="off" placeholder="First name*">
+								<input type="text" class="input" name="last-name" value="" required autocomplete="off" placeholder="Last name*">
+								<input type="text" class="input" name="address" value="" required autocomplete="off" placeholder="Address*">
+								<input type="text" class="input" name="address-2" value="" autocomplete="off" placeholder="Address line 2">
+								<select name="country" class="select" required>
+									<option value="none" disabled selected>Country*</option>
+									<option value="ukraine">Ukraine</option>
+									<option value="poland">Poland</option>
+									<option value="france">France</option>
+									<option value="usa">USA</option>
+									<option value="uk">UK</option>
+									<option value="brasil">Brasil</option>
+									<option value="germany">Germani</option>
+								</select>
+								<input type="text" class="input" name="city" value="" required autocomplete="off" placeholder="City/Town*">
+								<input type="tel" class="input" name="postcode" value="" required autocomplete="off" placeholder="Postcode / ZIP*">
+								<input type="tel" class="input" name="phone" value="" required autocomplete="off" placeholder="Phone*">
+								<input type="text" class="input" name="postcode" value="" required autocomplete="off" placeholder="Postcode / ZIP*">
+								<input type="text" class="input" name="phone" value="" required autocomplete="off" placeholder="Phone*">
+								<textarea name="message" class="textarea" autocomplete="off" placeholder="Additional information"></textarea>
+							</div>
+							<div class="form-billing__box">
+								<div class="form-billing__line">
+									<input type="checkbox" class="check" name="create-account" value="yes" id="create-account-01">
+									<label for="create-account-01" class="label">Create Account</label>
+								</div>
+								<div class="form-billing__line">
+									<input type="checkbox" class="check" name="different-address" value="yes" id="different-address-01">
+									<label for="different-address-01" class="label">Ship to a different address?</label>
+								</div>
+							</div>
+							<div class="form-billing__discount discount">
+								<h2 class="discount__title">Apply Coupon to get discount!</h2>
+								<input type="text" class="discount__coupon" name="coupon-code" value="" autocomplete="off" placeholder="Coupon code">
+								<button type="button" class="discount__button">Apply Code</button>
+							</div>
+							<div class="form-billing__order">
+								<button type="submit" class="form-billing__button">Place an Order</button>
+							</div>
+						</form>
+						<div class="form-crisp">
+							<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form-crisp__login login-crisp">
+								<h2 class="login-crisp__title title-crisp">Shipping Address</h2>
+								<div class="login-crisp__info">
+									<label for="email-02" class="login-crisp__label">Email Address</label>
+									<input type="email" class="login-crisp__input" name="email-crisp" value="" placeholder="roni_cost@example.com" id="email-02" required>
+									<label for="password-02" class="login-crisp__label">Password</label>
+									<input type="password" class="login-crisp__input" name="password-crisp" value="" placeholder="******************" id="password-02">
+									<label for="zip" class="login-crisp__label">Zip/Postal Code</label>
+									<input type="tel" class="login-crisp__input" name="zip-crisp" value="" id="zip">
+								</div>
+								<p class="login-crisp__guest">
+									You already have an account with us. Sign in or continue as guest.
+								</p>
+								<div class="login-crisp__signin">
+									<button type="submit" class="login-crisp__button">login</button>
+									<a href="#" class="login-crisp__password-fgt">Forgot Your Password?</a>
+								</div>
+							</form>
+							<div class="form-crisp__border border"></div>
+							<form action="https://jsonplaceholder.typicode.com/posts" class="form-crisp__shipping shipping-crisp" method="post">
+								<div class="shipping-crisp__info">
+									<label for="name" class="shipping-crisp__label">First Name</label>
+									<input type="text" class="shipping-crisp__input" name="shipping-name" value="" id="name" required>
+									<label for="last-name" class="shipping-crisp__label">Last Name</label>
+									<input type="text" class="shipping-crisp__input" name="password-crisp" value="" id="last-name" required>
+									<label for="company" class="shipping-crisp__label">Company</label>
+									<input type="text" class="shipping-crisp__input" name="company" value="" id="company">
+									<label for="street" class="shipping-crisp__label">Street Address</label>
+									<input type="text" class="shipping-crisp__input" name="street-1" value="" id="street" required>
+									<label for="" class="shipping-crisp__label"></label>
+									<input type="text" class="shipping-crisp__input" name="street-2" value="" required>
+									<label for="" class="shipping-crisp__label"></label>
+									<input type="text" class="shipping-crisp__input" name="street-3" value="" required>
+									<label for="country" class="shipping-crisp__label">Country</label>
+									<input type="text" class="shipping-crisp__input" name="shipping-country" value="" id="country" required>
+									<label for="province" class="shipping-crisp__label">State/Province</label>
+									<select name="state" class="shipping-crisp__select" id="province" required>
+										<option value="" disabled selected>Please select a region, state or province</option>
+										<option value="idaho">Idaho</option>
+										<option value="alabama">Alabama</option>
+										<option value="vermont">Vermont</option>
+										<option value="virginia">Virginia</option>
+										<option value="california">California</option>
+									</select>
+								</div>
+								<h2 class="shipping-crisp__title title-crisp">Shipping Methods</h2>
+								<div class="shipping-crisp__border border"></div>
+								<div class="shipping-crisp__price price">
+									<div class="price__line">
+										<input type="radio" class="price__input" id="5usd" required autocomplete="off" value="fixed" name="shipping">
+										<label for="5usd" class="price__label-1">$5.00</label>
+										<label for="5usd" class="price__label-2">Fixed</label>
+										<label for="5usd" class="price__label-3">Flat Rate</label>
+									</div>
+									<div class="price__border border"></div>
+									<div class="price__line">
+										<input type="radio" class="price__input" id="10usd" required autocomplete="off" value="table-rate" name="shipping">
+										<label for="10usd" class="price__label-1">$10.00</label>
+										<label for="10usd" class="price__label-2">Table Rate</label>
+										<label for="10usd" class="price__label-3">Best Way</label>
+									</div>
+								</div>
+								<div class="shipping-crisp__button button">
+									<button class="button__next">next</button>
+									<button class="button__back">back</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+</body>
+</html>

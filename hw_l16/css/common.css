@@ -1,0 +1,39 @@
+.border{
+	border-bottom: 1.5px solid #C4C4C4;
+}
+.title-crisp{
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	font-size: 24px;
+}
+.button{
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	font-family: Oswald;
+	font-size: 14px;
+	font-weight: 500;
+}
+.button__next{
+	flex: 0 1 120px;
+	height: 50px;
+	text-transform: uppercase;
+	background: #000000;
+	color: #FFF;
+	letter-spacing: 0.5px;
+	transition: background-color 0.5s;
+}
+.button__next:hover{
+	background-color: #EB5757;
+}
+.button__back{
+	flex: 0 1 120px;
+	color: #828282;
+	text-align: right;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	transition: color 0.5s;
+}
+.button__back:hover{
+	color: #000000;
+}

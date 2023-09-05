@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Домашка №16</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header></header>
+		<main>
+			<div class="test">
+				<div class="test__container">
+					<div class="test__content">
+						<form action="https://jsonplaceholder.typicode.com/posts" class="form-test" method="post">
+							<div class="form-test__line">
+								<input type="text" class="input" name="username" value="" placeholder="Имя пользователя" autocomplete="off" autofocus>
+							</div>
+							<div class="form-test__line">
+								<input type="text" class="input" name="login" value="" placeholder="Login*" id="login-01" required>
+								<label for="login-01" class="label">Введите login *</label>
+							</div>
+							<div class="form-test__line">
+								<input type="password" class="input" name="password" value="" placeholder="Password*" id="password-01" required>
+								<label for="password-01" class="label">Введите пароль *</label>
+							</div>
+							<div class="form-test__line">
+								<input type="email" class="input" name="email" value="" placeholder="@" id="email-01">
+								<label for="email-01" class="label">Введите E-mail</label>
+							</div>
+							<div class="form-test__line">
+								<input type="tel" class="input input--tel" name="phone" value="" placeholder="+(380)" id="phone-01" minlength="15">
+								<label for="phone-01" class="label">Введите Ваш телефон</label>
+							</div>
+							<div class="form-test__line">
+								<input type="number" class="input input--number" name="quantity" value="" id="quantity-01" required min="0" autocomplete="off">
+								<label for="quantity-01" class="label">Какое количество? *</label>
+							</div>
+							<div class="form-test__line">
+								<input type="color" class="input input--color" name="color" value="#ffffff" id="color-01" required autocomplete="off">
+								<label for="color-01" class="label">Цвет *</label>
+							</div>
+							<div class="form-test__line">
+								<input type="search" class="input input--search" name="search" value="" id="search-01" autocomplete="off">
+								<label for="search-01" class="label">Что Вы хотите найти?</label>
+							</div>
+							<div class="form-test__line">
+								<input type="date" class="input" name="date" value="" id="date-01" autocomplete="off">
+								<label for="date-01" class="label">Выберите дату</label>
+							</div>
+							<div class="form-test__line">
+								<label for="range-01" class="label label--range">На сколько дней?</label>
+								<input type="range" class="input" name="range" value="" id="range-01" autocomplete="off">
+							</div>
+							<div class="form-test__box">
+								<h2>Домашние животные:</h2>
+								<div class="form-test__line">
+									<input type="checkbox" class="input input--chk" name="cat" value="yes" id="cat-01" checked>
+									<label for="cat-01" class="label">Кошка</label>
+								</div>
+								<div class="form-test__line">
+									<input type="checkbox" class="input input--chk" name="dog" value="yes" id="dog-01">
+									<label for="dog-01" class="label">Собака</label>
+								</div>
+								<div class="form-test__line">
+									<input type="checkbox" class="input input--chk" name="parrot" value="yes" id="parrot-01">
+									<label for="parrot-01" class="label">Попугай</label>
+								</div>
+							</div>
+							<div class="form-test__box">
+								<h2>Марка Вашего авто:</h2>
+								<div class="form-test__line">
+									<input type="radio" class="input input--chk" name="car" value="audi" id="audi-01" checked>
+									<label for="audi-01" class="label">Audi</label>
+								</div>
+								<div class="form-test__line">
+									<input type="radio" class="input input--chk" name="car" value="mercedes" id="mercedes-01">
+									<label for="mercedes-01" class="label">Mercedes</label>
+								</div>
+								<div class="form-test__line">
+									<input type="radio" class="input input--chk" name="car" value="bmw" id="bmw-01">
+									<label for="bmw-01" class="label">BMW</label>
+								</div>
+							</div>
+							<div class="form-test__line">
+								<input type="file" class="input" name="file" multiple accept="image/png, image/jpeg">
+							</div>
+							<div class="form-test__line">
+								<textarea name="message" class="textarea" autocomplete="off" placeholder="Ваши пожелания"></textarea>
+							</div>
+							<div class="form-test__line">
+								<select name="profession" id="profession-01" class="form-test__list">
+									<option value="none" disabled selected>Ваша профессия</option>
+									<option value="economist">экономист</option>
+									<option value="lawyer">юрист</option>
+									<option value="teacher">учитель</option>
+									<option value="driver">водитель</option>
+									<option value="translater">переводчик</option>
+								</select>
+								<label for="profession-01" class="label">Ваша профессия</label>
+							</div>
+							<div class="form-test__line">
+								<div class="form-test__button">
+									<button type="submit" class="button">Отправить форму</button>
+									<button type="reset" class="button">Очистить форму</button>
+									<a href="index-hw16.html" target="_blank"><button type="button" class="button">Домашка №16</button></a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+</body>
+</html>
