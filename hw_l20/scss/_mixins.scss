@@ -1,0 +1,19 @@
+@mixin imageCont ($imgContHgt, $imgContWht, $position:false, $overflow:false) {
+	padding-bottom: math.div($imgContHgt,$imgContWht)*100%;
+	@if $position {
+		position: relative;
+	}
+	@if $overflow {
+		overflow: hidden;
+	}
+}
+@mixin title ($fontSz, $lineH, $fontW, $marginB) {
+	font-size: $fontSz;
+	font-weight: $fontW;
+	line-height: $lineH;
+	margin-bottom: $marginB;
+}
+@mixin grid ($templateCol) {
+	display: grid;
+	grid-template-columns: $templateCol;
+}
